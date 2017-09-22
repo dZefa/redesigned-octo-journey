@@ -7,5 +7,6 @@ app.get('/hello', helloController);
 
 app.get('/', (req, res) => res.json({ hello: 'world' }));
 
-app.listen(3000);
- 
+app.listen(3000, () => {
+  console.log('I am best SCRUM');
+});
